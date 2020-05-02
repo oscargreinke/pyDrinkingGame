@@ -73,7 +73,7 @@ def loadPrompts():
         print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH")
         print(version.lower())
     else:
-        prm = open("Prompts/"+version+".txt", "r").read().split("\n")
+        prm = open(version+".txt", "r").read().split("\n")
         pram = []
         for item in prm:
             pram.append(item.split("#"))
